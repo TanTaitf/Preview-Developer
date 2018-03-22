@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_app_dev_process"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.media.tf.previewdeverloper.View.View.DevelopProcessActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scrollbars="none">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="3"
+            android:orientation="vertical">
+            <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scrollbars="none">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:background="@color/bg_blue"
+                android:gravity="center"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_APP_DEV_PROCESS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="APP DEVELOPMENT PROCESS "
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp" />
+
+                <ListView
+                    android:id="@+id/list_item_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white">
+
+                </ListView>
+
+            </LinearLayout>
+            <!--</ScrollView>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+                android:background="@color/bg_item_blue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_BACKEND_DEV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="BACK-END DEVELOPMENT OFF AN APP "
+                    android:textColor="@android:color/white"
+                    android:textSize="27sp" />
+
+                <ListView
+                    android:id="@+id/list_item_back_end"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+                android:background="@color/bg_item_blue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_FRONTEND_DEV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/bg_item_blue"
+                    android:gravity="center"
+                    android:text="FRONT-END DEVELOPMENT OFF AN APP "
+                    android:textColor="@android:color/white"
+                    android:textSize="27sp" />
+
+                <ListView
+                    android:id="@+id/list_item_front_end"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    <!--</ScrollView>-->
+</LinearLayout>

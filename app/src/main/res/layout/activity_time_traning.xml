@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    android:padding="2dp"
+    android:background="@color/bg_white_cost"
+    tools:context="com.media.tf.previewdeverloper.View.View.TimeTraningActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/bg_green"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_APP_COST_DEV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="TOTAL HOURS TO BUILD AN APP"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/img_build"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bg_build_app" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/bg_blue"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_V"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="REVENUE BY MOBILE APP"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/img_chart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_white_cost"
+                android:src="@drawable/ic_bg_revenue" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

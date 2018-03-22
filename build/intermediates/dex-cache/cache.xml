@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows 8.1 Ultimate\.android\build-cache\57028213aa98acca1a9d99a2d53f39bf3e11322e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="D:\AppAndroid\KhoaPham\PreviewDeverloper\app\build\intermediates\pre-dexed\debug\classes_2e7643442e1aebd709dcd8198cf4260c07d9bf60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows 8.1 Ultimate\.android\build-cache\ddaa1a169de37f799e7743735f96375d633a6b7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="D:\AppAndroid\KhoaPham\PreviewDeverloper\app\build\intermediates\pre-dexed\debug\classes_b9a4a24cf5610168d354933a584e67152162abcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows 8.1 Ultimate\.android\build-cache\290f206c2419d2fd165390b3405c62a9394afca2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="D:\AppAndroid\KhoaPham\PreviewDeverloper\app\build\intermediates\pre-dexed\debug\classes_e19a2aafc83a432f4847e2d399112568e4a56813.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Windows 8.1 Ultimate\.android\build-cache\3ce4d30039bd811bed7ccf79b347a8379147fdf0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="D:\AppAndroid\KhoaPham\PreviewDeverloper\app\build\intermediates\pre-dexed\debug\classes_23c0cd873f4f70ffcbb202812d95dbf054eb50ea.jar" />
+    </item>
+
+</items>
