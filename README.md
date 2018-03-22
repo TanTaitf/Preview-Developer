@@ -3,3 +3,7 @@
 ![alt text](https://github.com/TanTaitf/Preview-Developer/blob/master/screnshoot2.png)
 ![alt text](https://github.com/TanTaitf/Preview-Developer/blob/master/screnshoot3.png)
 ![alt text](https://github.com/TanTaitf/Preview-Developer/blob/master/screnshoot4.png)
+
+# Developed by
+
+TanTaitf - tantaj2011vn@gmail.com
