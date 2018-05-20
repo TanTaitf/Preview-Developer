@@ -98,6 +98,7 @@ public class DevelopProcessActivity extends Activity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+//      set anim for activity on change
 //        YoYo.with(Techniques.SlideOutRight)
 //                .duration(350)
 //                .withListener(new Animator.AnimatorListener() {
